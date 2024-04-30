@@ -1,5 +1,74 @@
 #title{
-    font-size: 2rem;
-    color: rgb(36, 36, 123);
+    font-size: 4rem;
+    color: #00008b;
     text-align: center;
 }
+
+/* Apply styles to the description */
+#description {
+    font-size: 1.2em;
+    color:#00008b;
+    text-align: center;
+}
+
+/* Apply styles to the form */
+#survey-form{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #00008b;
+    border-radius: 10px;
+}
+
+/* Apply styles to input fields */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+
+textarea{
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #00008b;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Apply styles to label */
+label{
+    font-weight: 500;
+}
+
+/* Apply styles to submit button */
+#submit{
+    display: block;
+    width: 20%;
+    padding: 5px;
+    background-color: #00008b;
+    color: #0000ff;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+/* Apply styles to radio buttons */
+input[type="radio"]{
+    margin-right: 10px;
+}
+
+/* Apply styles to checkboxes */
+input[type="checkbox"]{
+    margin-right: 10px;
+}
+
+/* Apply styles to textarea */
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #00008b;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+

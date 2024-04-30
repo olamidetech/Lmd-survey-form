@@ -10,42 +10,62 @@
    <main>
     <h1 id="title">LMD-survey-form</h1>
     <P id="description">please fill out the form below to submit your information</P>
-    <form id="survey form">
+    <form id="survey-form">
 
         <!--Input field for  name-->
-        <label for="name">Name:</label><required>
-        <input type="text"id="name" placeholder="name"><required>
+        <div>
+            <label for="name">Name:</label>
+            <class></class>
+            <input type="text"id="name" placeholder="name" required>   
+        </div>
+        
 
         <!--Input field for age-->
-        <label for="age">Age:</label><required>
-        <input type="text"id="age" placeholder="age"><required>
+        <div>
+            <label for="age">Age:</label>
+            <input type="text"id="age" placeholder="age" required>
+        </div>
 
         <!--Input field for email-->
-        <label for="email">Email:</label><required>
-        <input type="text"id="enteryouremail" placeholder="enteryoureemail"><required>
-
+        <div>
+            <label for="email">Email:</label>
+            <input type="text"id="enteryouremail" placeholder="enteryoureemail" required>
+        </div>
+    
         <!--Input field for phone number-->
-        <label for="number">Phone number:</label><required>
-        <input type="text"id="number" placeholder="number" min="1" max="5"><required>
-
+        <div>
+            <label for="number">Phone number:</label>
+            <input type="text"id="number" placeholder="number" min="1" max="5" required>
+        </div>
+        
             <!--Select dropdown-->
-            <label for="dropdown">select an option</label>
-            <select id="dropdown">
+            <div>
+                <label for="dropdown">select an option</label>
+                <select id="dropdown">
                 <option value="option1">option1</option>
                 <option value="option2">option2</option>
-            </select>
+                </select> 
+            </div>
 
             <!--Radio buttons-->
+            
             <fieldset>
                 <legend>choose one option:</legend>
-                <label>
-                    <input type="radio" name="radio-option" value="option1">option1
-                </label>
-                <label>
-                    <input type="radio" name="radio-option" value="option2">option2
-                </label>
+                <div>
+                    <input type="radio" id="recommend" name="recommend" value="definately">
+                      <label for="recommend">Definately</label>
+                      <div>
+                        <input type="radio" id="recommend" name="recommend" value="maybe">
+                          <label for="recommend">Maybe</label>
+                          <div>
+                            <input type="radio" id="recommend" name="recommend" value="not sure">
+                              <label for="recommend">Not sure</label>
+                            </div>
+                        </div>
+                    </div>
             </fieldset>
-
+                    
+            
             <!--Checkboxes-->
             <fieldset>
                 <legend>Select all that apply:</legend>
