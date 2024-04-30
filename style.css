@@ -21,10 +21,10 @@
 }
 
 /* Apply styles to input fields */
-input[type="text"],
+/* input[type="text"],
 input[type="email"],
 input[type="number"],
-select,
+select, */
 
 textarea{
     width: 20%;
@@ -36,20 +36,24 @@ textarea{
 }
 
 /* Apply styles to label */
-label{
-    font-weight: 500;
-}
 
 /* Apply styles to submit button */
 #submit{
     display: block;
-    width: 20%;
+    width: 100%;
     padding: 5px;
-    background-color: #00008b;
+    background-color: beige;
+    font-size: 24px;
+    text-transform: uppercase;
     color: #0000ff;
     border: none;
     border-radius: 5px;
     cursor:pointer;
+}
+
+#submit:hover{
+    background-color: #0000ff;
+    color: beige;
 }
 
 /* Apply styles to radio buttons */
@@ -72,3 +76,23 @@ textarea{
     box-sizing: border-box;
 }
 
+.field {
+    width: 75%;
+    height: 30px;
+    padding: 0 18px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.fieldCon {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+label, legend {
+    font-size: 18px;
+    font-weight: 500;
+    color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

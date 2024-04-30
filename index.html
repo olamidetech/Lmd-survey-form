@@ -13,61 +13,59 @@
     <form id="survey-form">
 
         <!--Input field for  name-->
-        <div>
+        <div class="fieldCon">
             <label for="name">Name:</label>
-            <class></class>
-            <input type="text"id="name" placeholder="name" required>   
+            <input type="text" id="name" placeholder="name" required class="field">   
         </div>
         
 
         <!--Input field for age-->
-        <div>
+        <div class="fieldCon">
             <label for="age">Age:</label>
-            <input type="text"id="age" placeholder="age" required>
+            <input type="text" id="age" placeholder="age" required class="field">
         </div>
 
         <!--Input field for email-->
-        <div>
+        <div class="fieldCon">
             <label for="email">Email:</label>
-            <input type="text"id="enteryouremail" placeholder="enteryoureemail" required>
+            <input type="text" id="enteryouremail" placeholder="enteryoureemail" required class="field">
         </div>
     
         <!--Input field for phone number-->
-        <div>
+        <div class="fieldCon">
             <label for="number">Phone number:</label>
-            <input type="text"id="number" placeholder="number" min="1" max="5" required>
+            <input type="text"id="number" placeholder="number" min="1" max="5" required class="field">
         </div>
         
-            <!--Select dropdown-->
-            <div>
-                <label for="dropdown">select an option</label>
-                <select id="dropdown">
-                <option value="option1">option1</option>
-                <option value="option2">option2</option>
-                </select> 
-            </div>
+        <!--Select dropdown-->
+        <div class="fieldCon">
+            <label for="dropdown">select an option</label>
+            <select id="dropdown" class="field">
+            <option value="option1">option1</option>
+            <option value="option2">option2</option>
+            </select> 
+        </div>
 
             <!--Radio buttons-->
-            
-            <fieldset>
-                <legend>choose one option:</legend>
-                <div>
-                    <input type="radio" id="recommend" name="recommend" value="definately">
-                      <label for="recommend">Definately</label>
-                      <div>
-                        <input type="radio" id="recommend" name="recommend" value="maybe">
-                          <label for="recommend">Maybe</label>
-                          <div>
-                            <input type="radio" id="recommend" name="recommend" value="not sure">
-                              <label for="recommend">Not sure</label>
-                            </div>
+        <fieldset class="fieldCon">
+            <legend>choose one option:</legend>
+            <div>
+                <input type="radio" id="recommend" name="recommend" value="definately">
+                    <label for="recommend">Definately</label>
+                    <div>
+                    <input type="radio" id="recommend" name="recommend" value="maybe">
+                        <label for="recommend">Maybe</label>
+                        <div>
+                        <input type="radio" id="recommend" name="recommend" value="not sure">
+                            <label for="recommend">Not sure</label>
                         </div>
                     </div>
-            </fieldset>
-                    
+                </div>
+        </fieldset>
+                
             
             <!--Checkboxes-->
-            <fieldset>
+            <fieldset class="fieldCon">
                 <legend>Select all that apply:</legend>
                 <label>
                     <input type="checkbox" name="checkbox-option" value="option1">option1
